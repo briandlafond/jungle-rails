@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'about', to: 'about'
+  get 'about', controller: 'about'
   
   root to: 'products#index'
 
